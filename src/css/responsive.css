@@ -1,0 +1,47 @@
+@media screen and (max-width: 991px){
+    .infoImg{
+        margin-top: 5%;
+        background-image: url(/src/images/infoImg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 360px;
+        height: 700px;
+        border-radius: 20px;
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    .infoImg{
+        margin-top: 5%;
+        background-image: url(/src/images/infoImg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 600px;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    .Imginfo2{
+        margin-top: 5%;
+        background-image: url(/src/images/infoImg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 600px;
+        height: 400px;
+        border-radius: 20px;
+    }
+}
+
+@media  screen and (max-width: 426px) {
+    ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+@media  screen and (max-width: 292px) {
+    ul li {
+        display: inline-block;
+        padding: 7px;
+    }
+}

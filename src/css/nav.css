@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0D0D0D;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+    ul li {
+        display: inline-block;
+        padding: 30px;
+    }
+        li a{
+            color: white;
+            text-decoration: none;
+            transition: all .5s;
+            font-size: 20px;
+        }
+
+        li a:hover{
+            font-size: 24px;
+            transition: all .4s;
+        }
+
+.footer{
+    background-color: #0D0D0D;
+    color: white;
+    font-weight: bold;
+}
+
+#socialMedia{
+    text-align: center;
+}
+    #titleSocialMedia{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
