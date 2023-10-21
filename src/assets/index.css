@@ -18,7 +18,7 @@
 }
 
 nav {
-    padding: 4%;
+    padding: 2%;
     background-color: var(--nav-background-color);
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 #coverImg {
-    margin-top: -15px;
+    margin-top: -9px;
     width: 100%;
 }
 
