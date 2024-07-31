@@ -1,0 +1,13 @@
+@import "../../globalVariables";
+@import "navbar";
+@import "landpage";
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: $font_family;
+}
+
+main {
+    margin-top: 5rem;
+}
