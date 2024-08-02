@@ -8,81 +8,89 @@ header {
   margin-top: -5.5rem;
 }
 
-#landpage {
+#articles {
   display: grid;
-  height: 90vh;
   grid-template-columns: 100%;
+  height: 100vh;
 }
-#landpage #welcome {
+#articles #welcome {
   background-color: #0d160b;
-  width: 100%;
   color: white;
-  text-align: center;
-  padding-bottom: 4rem;
-}
-#landpage #welcome #welcome-text {
-  margin-top: 10vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-#landpage #welcome #welcome-text #title {
-  color: #38b6ff;
+#articles #welcome #occupation {
   font-size: 40px;
-  margin-bottom: 4rem;
+  color: #38b6ff;
 }
-#landpage #welcome #welcome-text #text {
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+#articles #welcome #careers, #articles #welcome #phrase {
+  font-size: 24px;
+  max-width: 300px;
+  text-align: center;
 }
-#landpage #welcome #welcome-text #contact-me {
-  padding: 1rem;
-  border-radius: 5px;
-  background-color: #38b6ff;
-  color: black;
-  font-size: 18px;
+#articles #welcome #phrase {
+  color: yellow;
+}
+#articles #welcome #contact-btn {
+  background-color: #0d160b;
+  color: #38b6ff;
+  padding: 15px;
   width: 200px;
-  margin-top: 6rem;
+  border: 1px solid white;
+  font-size: 20px;
   transition: all 0.5s;
+  border-radius: 10px;
   cursor: pointer;
 }
-#landpage #welcome #welcome-text #contact-me:hover {
-  background-color: #79ceff;
+#articles #welcome #contact-btn:hover {
+  background-color: #f1f2f6;
+  color: #004aad;
   transition: all 0.5s;
 }
-#landpage #aboutme {
+#articles #about-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #f1f2f6;
-  width: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  text-align: center;
-}
-#landpage #aboutme #aboutme-text {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  width: 100%;
 }
-#landpage #aboutme #aboutme-text #photo {
+#articles #about-me #photo {
   max-width: 300px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
-#landpage #aboutme #aboutme-text #text-about {
+#articles #about-me #presentation {
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 24px;
+  max-width: 300px;
+  text-align: center;
 }
-#landpage #aboutme #aboutme-text #text-about #name {
+#articles #about-me #presentation #name {
   color: #004aad;
 }
-#landpage #aboutme #aboutme-text #text-about-continuation {
+#articles #about-me #promise {
   font-size: 20px;
-  max-width: 400px;
-  text-align: left;
+  max-width: 300px;
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
-  #landpage {
+  #articles {
     grid-template-columns: 50% 50%;
+  }
+  #welcome > #careers {
+    text-align: center;
+  }
+  #about-me > #presentation, #promise {
+    max-width: 400px !important;
+  }
+  #about-me > #photo {
+    max-width: 400px !important;
   }
 }
 * {
