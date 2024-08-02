@@ -8,12 +8,12 @@ header {
   margin-top: -5.5rem;
 }
 
-#articles {
+#landpage-articles {
   display: grid;
   grid-template-columns: 100%;
-  height: 100vh;
+  grid-template-rows: 50% 50%;
 }
-#articles #welcome {
+#landpage-articles #welcome {
   background-color: #0d160b;
   color: white;
   width: 100%;
@@ -22,20 +22,21 @@ header {
   gap: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
+  height: 100vh;
 }
-#articles #welcome #occupation {
+#landpage-articles #welcome #occupation {
   font-size: 40px;
   color: #38b6ff;
 }
-#articles #welcome #careers, #articles #welcome #phrase {
+#landpage-articles #welcome #careers, #landpage-articles #welcome #phrase {
   font-size: 24px;
   max-width: 300px;
   text-align: center;
 }
-#articles #welcome #phrase {
+#landpage-articles #welcome #phrase {
   color: yellow;
 }
-#articles #welcome #contact-btn {
+#landpage-articles #welcome #contact-btn {
   background-color: #0d160b;
   color: #38b6ff;
   padding: 15px;
@@ -46,12 +47,12 @@ header {
   border-radius: 10px;
   cursor: pointer;
 }
-#articles #welcome #contact-btn:hover {
+#landpage-articles #welcome #contact-btn:hover {
   background-color: #f1f2f6;
   color: #004aad;
   transition: all 0.5s;
 }
-#articles #about-me {
+#landpage-articles #about-me {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #f1f2f6;
@@ -59,29 +60,30 @@ header {
   flex-direction: column;
   width: 100%;
 }
-#articles #about-me #photo {
+#landpage-articles #about-me #photo {
   max-width: 300px;
   border-radius: 10px;
 }
-#articles #about-me #presentation {
+#landpage-articles #about-me #presentation {
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 24px;
   max-width: 300px;
   text-align: center;
 }
-#articles #about-me #presentation #name {
+#landpage-articles #about-me #presentation #name {
   color: #004aad;
 }
-#articles #about-me #promise {
+#landpage-articles #about-me #promise {
   font-size: 20px;
   max-width: 300px;
   text-align: center;
 }
 
 @media screen and (min-width: 800px) {
-  #articles {
+  #landpage-articles {
     grid-template-columns: 50% 50%;
+    height: 100vh;
   }
   #welcome > #careers {
     text-align: center;
