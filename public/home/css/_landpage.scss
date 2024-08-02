@@ -1,55 +1,88 @@
 @import "../../globalVariables";
 
+
 #landpage {
     display: grid;
+    height: 90vh;
     grid-template-columns: 100%;
-    background-color: $secondary_color;
-    margin: 0;
-    padding: 0.5rem;
-    height: 110vh;
-    padding-top: 3rem;
 
-    #presentation-card {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
+    #welcome {
+        background-color: $primary_color;
+        width: 100%;
+        color: white;
         text-align: center;
-        margin-bottom: 2rem;
+        padding-bottom: 4rem;
 
-        #title {
-            font-size: 34px;
-        }
-        #subtitle {
+        #welcome-text {
+            margin-top: 10vh;
             display: flex;
             flex-direction: column;
-            gap: 1rem;
-            font-size: 24px;
-            text-align: center;
+            gap: 2rem;
 
-            #occupation {
-                font-weight: 500;
+            #title {
+                color: $color;
+                font-size: 40px;
+                margin-bottom: 4rem;
+            }
+            #text {
+                font-size: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+            }
+            #contact-me {
+                padding: 1rem;
+                border-radius: 5px;
+                background-color: $color;
+                color: black;
+                font-size: 18px;
+                width: 200px;
+                margin-top: 6rem;
+                transition: all .5s;
+                cursor: pointer;
+            }
+            #contact-me:hover {
+                background-color: #79ceff;
+                transition: all .5s;
             }
         }
-        #contact-me {
-            padding: 0.8rem;
-            border-radius: 5px;
-            font-size: 14px;
-            background-color: black;
-            color: $secondary_color;
-            width: 150px;
-            transition: all .5s;
-        }
-        #contact-me:hover {
-            background-color: grey;
-            transition: all .5s;
+
+    }
+    
+    #aboutme {
+        background-color: $secondary_color;
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        text-align: center;
+
+        #aboutme-text {
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+            #photo {
+                max-width: 300px;
+                border-radius: 5px;
+            }
+            #text-about {
+                font-size: 24px;
+
+                #name {
+                    color: $color2;
+                }
+            }
+            #text-about-continuation {
+                font-size: 20px;
+                max-width: 400px;
+                text-align: left;
+            }
         }
     }
-    #image-card {
-        display:flex;
-        padding: 2rem;
-        #photo {
-            width: 100%;
-            margin-bottom: 2rem;
-        }
+}
+
+@media screen and (min-width: 800px) {
+    #landpage {
+        grid-template-columns: 50% 50%;
     }
 }

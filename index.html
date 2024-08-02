@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/home/css/home.css">
+    <link rel="stylesheet" href="public/section_services/css/services.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,19 +18,50 @@
     </header>
     <main>
         <section id="landpage">
-            <article class="card" id="presentation-card">
-                <h1 id="title">RAMMSES NIEVES GUTIERREZ</h1>
-                <p id="subtitle">
-                    <span id="occupation">WEB DEVELOPER</span>
-                    IT ENGINEER & PROGRAMMING TECHNICIAN
-                </p>
-                <button type="button" id="contact-me">
-                    CONTACT ME
-                </button>
-            </article>
-            <article class="card" id="image-card">
-                <img id="photo" src="public/home/images/photo.png" alt="photo of Rammses Nieves Gutierrez">
-            </article>
+            <div id="welcome">
+                <article id="welcome-text">
+                    <h1 id="title">Web Developer</h1>
+                    <p id="text"> IT Engineer & Programming Technician
+                        <span>Your ideas in the web</span>
+                    </p>
+                    <button id="contact-me">Contact Me</button>
+                </article>
+            </div>
+            <div id="aboutme">
+                <article id="aboutme-text">
+                    <img src="public/home/images/photo.png" id="photo" alt="Photo of Rammses Nieves Gutierrez">
+                    <p id="text-about">Hello! my name is 
+                        <span id="name">Rammses Nieves Gutierrez</span>
+                    </p>
+                    <p id="text-about-continuation">
+                        I'm always looking fot the best practices, 
+                        technologies and products for my clients.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="services">
+            <div id="development">
+                <article id="development-article">
+                    <h2>Development and Deployment</h2>
+                    <div id="type-sites">
+                        <div id="static-site">
+                            <img id="static-icon" src="public/section_services/images/front_icon.png" alt="Static Sites Image">
+                            <span id="static">Static Web Sites</span>
+                        </div>
+                        <div id="dynamic-site">
+                            <img id="dynamic-icon" src="public/section_services/images/back_icon.png" alt="Dynamic Sites Image">
+                            <span id="dynamic">Dynamic Web Sites</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div id="websites">
+                <article id="website-article">
+                    <img src="public/section_services/images/site1.png" alt="Matexanii website image" class="img-website1" id="img1_website1">
+                    <img src="public/section_services/images/site2.png" alt="Matexanii website image" class="img-website1" id="img2_website1">
+                </article>
+            </div>
         </section>
     </main>
 </body>
