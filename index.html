@@ -15,7 +15,9 @@
 <body>
     <header>
         <nav id="navbar">
-            <span id="logo">RAMMSES ITIC</span>
+            <a href="index.html">
+                <span id="logo">RAMMSES ITIC</span>
+            </a>
         </nav>
     </header>
     <main>
@@ -27,7 +29,9 @@
                         IT Engineer & Programming Technician
                     </p>
                     <p id="phrase">Your ideas in the web</p>
-                    <button id="contact-btn" type="button">Contact Me</button>
+                    <a href="#contact-me">
+                        <button id="contact-btn" type="button">Contact Me</button>
+                    </a>
                 </article>
                 <article id="about-me">
                     <img src="public/home/images/photo.png" alt="Photo of Rammses Nieves Gutirrez" id="photo">
@@ -58,8 +62,12 @@
                 </article>
                 <article id="websites">
                     <div id="website_images">
-                        <img src="public/section_services/images/site1.png" alt="Website Matexanii first image" class="website1_img" id="website1_img1">
-                        <img src="public/section_services/images/site2.png" alt="Webiste Matexanii second image" class="website1_img" id="website1_img2">
+                        <a href="https://exani-ii.vercel.app/" target="_blank">
+                            <img src="public/section_services/images/site1.png" alt="Website Matexanii first image" class="website1_img" id="website1_img1">
+                        </a>
+                        <a href="https://exani-ii.vercel.app/" target="_blank">
+                            <img src="public/section_services/images/site2.png" alt="Webiste Matexanii second image" class="website1_img" id="website1_img2">
+                        </a>
                     </div>
                     <h2 class="subtitle">Project Matexanii</h2>
                     <p id="project_description">
@@ -106,27 +114,27 @@
                 <article id="get-in-touch">
                     <h2 class="subtitle">GET IN TOUCH</h2>
                     <p id="first-paragraph">
-                        If you have a project in mid feel
+                        If you have a project in mind feel
                         free to reach me
                     </p>
                     <p id="second-paragraph">
-                        I'm always teady to work in
+                        I'm always ready to work in
                         new projects
                     </p>
                 </article>
                 <article id="contact-form">
-                    <form action="" method="post">
-                        <input type="text" placeholder="Your name" required>
-                        <input type="email" placeholder="Your email" required>
-                        <input type="number" placeholder="Your budget (USD)" required>
-                        <textarea name="project-description" id="project-description" placeholder="About your project" required></textarea>
+                    <form action="https://formspree.io/f/xnnaallg" method="POST" id="contact-me-form">
+                        <input type="text" placeholder="Your name" required name="name" id="form-name">
+                        <input type="email" placeholder="Your email" required name="email" id="form-email">
+                        <input type="number" placeholder="Your budget (USD)" required name="budget" id="form-budget">
+                        <textarea name="project-description" id="form-project-description" placeholder="About your project" required></textarea>
                         <div id="btn-and-socials">
                             <div id="socials">
                                 <img src="public/contact-me/images/instagram_icon.png" alt="Instagram-icon" id="instagram-icon">
                                 <img src="public/contact-me/images/linkedin.png" alt="linkedin-icon" id="linkedin-icon">
                                 <img src="public/contact-me/images/github_icon.png" alt="github-icon" id="github-icon">
                             </div>
-                            <button type="submit">Send</button>
+                            <button type="submit" id="form-send-btn">Send</button>
                         </div>
                     </form>
                 </article>

@@ -1,0 +1,77 @@
+@import "../../globalVariables";
+
+ * {
+    padding: 0;
+    margin: 0 auto;
+ }
+
+ body {
+    background-color: $primary_color;
+    color: white;
+ }
+
+ #container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    margin: 20px;
+
+    #greetings {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        max-width: 300px;
+        margin-bottom: 100px;
+        margin-top: 1.5rem;
+        width: 100%;
+
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            color: $color;
+        }
+        p {
+            font-size: 24px;
+        }
+        a > button {
+            padding: 15px;
+            width: 200px;
+            background-color: $primary_color;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid white;
+            color: white;
+            transition: all .5s;
+            cursor: pointer;
+        }
+        a > button:hover {
+            background-color: $color;
+            color: black;
+            border: 1px solid black;
+            transition: all .5s;
+        }
+    }
+
+    #gif_article {
+        width: 100%;
+        text-align: center;
+        img {
+            width:100%;
+            max-width: 800px;
+        }
+    }
+ }
+
+ @media screen and (min-width: 800px) {
+    body {
+        margin-top: 20vh;
+    }
+    #container {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+    #greetings {
+        max-width: 500px !important;
+        gap: 100px !important;
+    }
+ }
