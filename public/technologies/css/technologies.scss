@@ -30,10 +30,12 @@
             background-color: $secondary_color;
             height: fit-content;
             color: $color2;
-            padding: 20px;
             font-size: 24px;
             font-weight: bold;
             border-radius: 20px;
+            width: 80%;
+            padding-bottom: 20px;
+            padding-top: 20px;
         }
     }
 }

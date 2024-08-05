@@ -29,10 +29,12 @@
   background-color: #f1f2f6;
   height: fit-content;
   color: #004aad;
-  padding: 20px;
   font-size: 24px;
   font-weight: bold;
   border-radius: 20px;
+  width: 80%;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 800px) {

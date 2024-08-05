@@ -58,3 +58,16 @@
         grid-template-rows: auto;
     }
 }
+
+@media screen and (max-width: 425px) {
+
+    #services > #services_articles >
+    #development > .subtitle  {  
+        max-width: 250px;  
+    }
+
+    #services > #services_articles >
+    #websites > #website_images > img {
+        width: 150px;
+    }
+}
