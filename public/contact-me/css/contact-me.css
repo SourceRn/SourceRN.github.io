@@ -52,12 +52,15 @@
   justify-content: space-between;
   width: 100%;
 }
-#contact-me-articles #contact-form > form #btn-and-socials #socials > img {
+#contact-me-articles #contact-form > form #btn-and-socials #socials > a {
+  text-decoration: none;
+}
+#contact-me-articles #contact-form > form #btn-and-socials #socials > a > img {
   width: 40px;
   cursor: pointer;
   transition: all 0.5s;
 }
-#contact-me-articles #contact-form > form #btn-and-socials #socials > img:hover {
+#contact-me-articles #contact-form > form #btn-and-socials #socials > a > img:hover {
   width: 50px;
   transition: all 0.5s;
 }

@@ -55,12 +55,15 @@
             justify-content: space-between;
             width: 100%;
 
-            #socials > img {
+            #socials > a {
+                text-decoration: none;
+            }
+            #socials > a > img {
                 width: 40px;
                 cursor: pointer;
                 transition: all .5s;
             }
-            #socials > img:hover {
+            #socials > a > img:hover {
                 width: 50px;
                 transition: all .5s;
             }

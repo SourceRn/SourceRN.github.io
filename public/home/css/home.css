@@ -6,6 +6,7 @@ header {
   position: fixed;
   width: 100%;
   margin-top: -5.5rem;
+  z-index: 2;
 }
 
 header > #navbar > a {
@@ -68,10 +69,6 @@ header > #navbar > a {
 #landpage-articles #about-me #photo {
   max-width: 300px;
   border-radius: 10px;
-}
-#landpage-articles #about-me #photo:hover {
-  filter: brightness(20%);
-  transition: all 0.5s;
 }
 #landpage-articles #about-me #presentation {
   margin-top: 40px;
