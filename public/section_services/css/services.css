@@ -61,8 +61,12 @@
   #services > #services_articles > #development > .subtitle {
     max-width: 250px;
   }
-  #services > #services_articles > #websites > #website_images > img {
-    width: 150px;
+  #services > #services_articles > #websites > #website_images > a > .website1_img {
+    width: 150px !important;
+  }
+  #services > #services_articles > #websites > p {
+    max-width: 300px;
+    text-align: center;
   }
 }
 
