@@ -8,9 +8,9 @@ header {
   z-index: 2;
   box-shadow: 2px 2px 2px 2px #0b1309;
 }
-header nav > a > span > img {
+header nav a span #img-logo {
   width: 150px;
-  margin-left: 1.1rem;
+  margin-left: 1rem;
 }
 
 header > #navbar > a {
