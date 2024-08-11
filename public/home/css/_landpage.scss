@@ -16,7 +16,7 @@ header > #navbar > a {
         display: flex;
         flex-direction: column;
         gap: 100px;
-        padding-top: 100px;
+        padding-top: 130px;
         padding-bottom: 100px;
         height: 100vh;
 
@@ -69,6 +69,7 @@ header > #navbar > a {
             text-align: center;
             #name {
                 color: $color2;
+                font-size: 30px;
             }
         }
         #promise {

@@ -1,12 +1,16 @@
 header {
   background-color: #0d160b;
   color: #38b6ff;
-  padding: 2rem;
   font-size: 24px;
   position: fixed;
   width: 100%;
   margin-top: -5.5rem;
   z-index: 2;
+  box-shadow: 2px 2px 2px 2px #0b1309;
+}
+header nav > a > span > img {
+  width: 150px;
+  margin-left: 1rem;
 }
 
 header > #navbar > a {
@@ -26,7 +30,7 @@ header > #navbar > a {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 100px;
   height: 100vh;
 }
@@ -79,6 +83,7 @@ header > #navbar > a {
 }
 #landpage-articles #about-me #presentation #name {
   color: #004aad;
+  font-size: 30px;
 }
 #landpage-articles #about-me #promise {
   font-size: 20px;
